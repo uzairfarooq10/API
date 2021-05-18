@@ -1,4 +1,4 @@
-$(function() {
+ $(function() {
     loadRecipies();
     $("#recipies").on("click", ".btn-danger", handledelete);
     $("#recipies").on("click", ".btn-warning", handleUpdate);
